@@ -42,12 +42,12 @@
 #include <QTextStream>
 #include <QWhatsThis>
 
-#include <qwt_picker_machine.h>
-#include <qwt_plot.h>
-#include <qwt_plot_picker.h>
-#include <qwt_scale_engine.h>
-#include <qwt_symbol.h>
-#include <qwt_text.h>
+#include <QwtPickerMachine>
+#include <QwtPlot>
+#include <QwtPlotPicker>
+#include <QwtScaleEngine>
+#include <QwtSymbol>
+#include <QwtText>
 
 #include <climits>
 
