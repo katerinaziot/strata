@@ -27,7 +27,7 @@
 #include "SteppedOutputInterpolater.h"
 #include "SubLayer.h"
 
-#include <qwt_plot_curve.h>
+#include <QwtPlotCurve>
 
 AbstractSteppedProfileOutput::AbstractSteppedProfileOutput(
     OutputCatalog *catalog)
