@@ -42,13 +42,13 @@
 #include <QTabWidget>
 #include <QVBoxLayout>
 
-#include <qwt_legend.h>
-#include <qwt_picker_machine.h>
-#include <qwt_plot.h>
-#include <qwt_plot_picker.h>
-#include <qwt_scale_engine.h>
-#include <qwt_symbol.h>
-#include <qwt_text.h>
+#include <QwtLegend>
+#include <QwtPickerMachine>
+#include <QwtPlot>
+#include <QwtPlotPicker>
+#include <QwtScaleEngine>
+#include <QwtSymbol>
+#include <QwtText>
 
 CompatibleRvtMotionDialog::CompatibleRvtMotionDialog(
     CompatibleRvtMotion *motion, bool readOnly, QWidget *parent)
