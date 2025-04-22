@@ -26,8 +26,8 @@
 #include <QDataStream>
 #include <QJsonObject>
 
-#include <qwt_plot.h>
-#include <qwt_plot_curve.h>
+#include <QwtPlot>
+#include <QwtPlotCurve>
 
 class AbstractCalculator;
 class AbstractOutputInterpolater;
