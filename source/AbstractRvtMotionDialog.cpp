@@ -42,10 +42,10 @@
 #include <QScrollArea>
 #include <QTabWidget>
 
-#include <qwt_picker_machine.h>
-#include <qwt_plot.h>
-#include <qwt_plot_picker.h>
-#include <qwt_text.h>
+#include <QwtPickerMachine>
+#include <QwtPlot.h>
+#include <QwtPlotPicker.h>
+#include <QwtText.h>
 
 AbstractRvtMotionDialog::AbstractRvtMotionDialog(AbstractRvtMotion *motion,
                                                  bool readOnly, QWidget *parent)
