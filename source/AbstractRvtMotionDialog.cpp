@@ -43,9 +43,9 @@
 #include <QTabWidget>
 
 #include <QwtPickerMachine>
-#include <QwtPlot.h>
-#include <QwtPlotPicker.h>
-#include <QwtText.h>
+#include <QwtPlot>
+#include <QwtPlotPicker>
+#include <QwtText>
 
 AbstractRvtMotionDialog::AbstractRvtMotionDialog(AbstractRvtMotion *motion,
                                                  bool readOnly, QWidget *parent)
