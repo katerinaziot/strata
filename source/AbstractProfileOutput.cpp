@@ -35,7 +35,7 @@
 
 #include <QDebug>
 
-#include <qwt_scale_engine.h>
+#include <QwtScaleEngine>
 
 AbstractProfileOutput::AbstractProfileOutput(OutputCatalog *catalog,
                                              bool interpolated)
