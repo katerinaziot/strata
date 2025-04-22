@@ -24,8 +24,8 @@
 
 #include <QObject>
 
-#include <qwt_plot.h>
-#include <qwt_plot_curve.h>
+#include <QwtPlot>
+#include <QwtPlotCurve>
 
 class AbstractOutput;
 
