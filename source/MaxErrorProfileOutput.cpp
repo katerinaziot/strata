@@ -26,7 +26,7 @@
 #include "SoilProfile.h"
 #include "Units.h"
 
-#include <qwt_scale_engine.h>
+#include <QwtScaleEngine>
 
 MaxErrorProfileOutput::MaxErrorProfileOutput(OutputCatalog *catalog)
     : AbstractSteppedProfileOutput(catalog) {
