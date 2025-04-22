@@ -28,7 +28,7 @@
 #include "TimeSeriesMotion.h"
 #include "Units.h"
 
-#include <qwt_scale_engine.h>
+#include <QwtScaleEngine>
 
 AriasIntensityProfileOutput::AriasIntensityProfileOutput(OutputCatalog *catalog)
     : AbstractProfileOutput(catalog, false) {}
