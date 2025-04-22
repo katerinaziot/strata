@@ -28,7 +28,7 @@
 #include "TimeSeriesMotion.h"
 #include "Units.h"
 
-#include <qwt_scale_engine.h>
+#include <QwtScaleEngine>
 
 DissipatedEnergyProfileOutput::DissipatedEnergyProfileOutput(
     OutputCatalog *catalog)
