@@ -41,16 +41,16 @@
 #include <QScrollArea>
 #include <QSplitter>
 
-#include <qwt_legend.h>
-#include <qwt_picker_machine.h>
-#include <qwt_plot_picker.h>
-#include <qwt_scale_engine.h>
-#include <qwt_symbol.h>
+#include <QwtLegend>
+#include <QwtPickerMachine>
+#include <QwtPlotPicker>
+#include <QwtScaleEngine>
+#include <QwtSymbol>
 
 #if QWT_VERSION < 0x060100
-#include <qwt_legend_item.h>
+#include <QwtPlotLegendItem>
 #else
-#include <qwt_plot_legenditem.h>
+#include <QwtPlotLegendItem>
 #endif
 
 ResultsPage::ResultsPage(QWidget *parent)
