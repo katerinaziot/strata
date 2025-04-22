@@ -29,7 +29,7 @@
 #include <QFormLayout>
 #include <QTabWidget>
 
-#include <qwt_plot_curve.h>
+#include <QwtPlotCurve>
 
 class AbstractRvtMotionDialog : public QDialog {
   Q_OBJECT
