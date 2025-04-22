@@ -34,8 +34,8 @@
 #include <QDebug>
 #include <QFile>
 
-#include <qwt_scale_engine.h>
-#include <qwt_text.h>
+#include <QwtScaleEngine>
+#include <QwtText>
 
 AbstractRvtMotion::AbstractRvtMotion(QObject *parent)
     : AbstractMotion(parent), _duration(0), _peakCalculator(nullptr),
