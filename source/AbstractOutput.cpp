@@ -35,8 +35,8 @@
 #include <QJsonArray>
 #include <QPen>
 
-#include <qwt_scale_engine.h>
-#include <qwt_text.h>
+#include <QwtScaleEngine>
+#include <QwtText>
 
 AbstractOutput::AbstractOutput(OutputCatalog *catalog)
     : QAbstractTableModel(catalog), _catalog(catalog), _statistics(nullptr),
