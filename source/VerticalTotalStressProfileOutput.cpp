@@ -26,7 +26,7 @@
 #include "SubLayer.h"
 #include "Units.h"
 
-#include <qwt_scale_engine.h>
+#include <QwtScaleEngine>
 
 VerticalTotalStressProfileOutput::VerticalTotalStressProfileOutput(
     OutputCatalog *catalog)
