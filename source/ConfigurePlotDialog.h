@@ -28,9 +28,9 @@
 #include <QGroupBox>
 #include <QLineEdit>
 
-#include <qwt_plot.h>
-#include <qwt_scale_div.h>
-#include <qwt_scale_engine.h>
+#include <QwtPlot>
+#include <QwtScaleDiv>
+#include <QwtScaleEngine>
 
 //! A QGroupBox contain the options to customize a plot axis.
 
