@@ -30,7 +30,7 @@
 #include "OutputCatalog.h"
 #include "SoilProfile.h"
 
-#include <qwt_scale_engine.h>
+#include <QwtScaleEngine>
 
 StrainTransferFunctionOutput::StrainTransferFunctionOutput(
     OutputCatalog *catalog)
